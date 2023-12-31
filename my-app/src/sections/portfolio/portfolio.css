@@ -1,25 +1,24 @@
-.portfolio__container{
+.portfolio__container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 2rem;
 }
 
-.portfolio__container__items{
+.portfolio__container__links {
     flex: 0 1 1 150px;
     margin: 5px;
 }
 
-.portfolio__card{
+.portfolio__card {
     flex: 0 1 1 150px;
     margin: 5px;
 }
 
-.portfolio__card-items{
+.portfolio__card__items {
     flex: 0 1 1 150px;
     width: 10rem;
     height: 20rem;
     margin: 2rem;
     border-color: rgb(49, 3, 59);
 }
-
