@@ -22,3 +22,16 @@
     flex: 0 1 1 150px;
     margin: 5px;
 }
+
+.portfolio__card{
+    flex: 0 1 1 150px;
+    margin: 5px;
+}
+
+.portfolio__card-items{
+    flex: 0 1 1 150px;
+    width: 10rem;
+    height: 20rem;
+    margin: 2rem;
+    border-color: rgb(49, 3, 59);
+}

@@ -1,30 +1,13 @@
-const allData = [
-    {id:1, link: '#' , title: 'Home'},
-    {id:2, link: '#about' , title: 'About'},
-    {id:3, link: 'services' , title: 'Services'},
-    {id:4, link: '#portfolio' , title: 'Portfolio'}
+import { TbAwardFilled } from "react-icons/tb";
+import { GrProjects } from "react-icons/gr";
+import { AiFillDatabase } from "react-icons/ai";
+
+
+const data = [
+    {id:1, icon: <TbAwardFilled/> , title: "Experience" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"},
+    {id:2, icon: <GrProjects/> , title: "Projects" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"},
+    {id:3, icon: <AiFillDatabase/> , title: "Achievements" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"},
+    {id:4, icon: <AiFillDatabase/> , title: "Achievements" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"}
 ]
 
-// const frontend = [
-//     {id:1, link: '#' , title: 'Home'},
-//     {id:2, link: '#about' , title: 'About'},
-//     {id:3, link: 'services' , title: 'Services'},
-//     {id:4, link: '#portfolio' , title: 'Portfolio'}
-// ]
-
-// const backend = [
-//     {id:1, link: '#' , title: 'Home'},
-//     {id:2, link: '#about' , title: 'About'},
-//     {id:3, link: 'services' , title: 'Services'},
-//     {id:4, link: '#portfolio' , title: 'Portfolio'}
-// ]
-
-// const mulesoft = [
-//     {id:1, link: '#' , title: 'Home'},
-//     {id:2, link: '#about' , title: 'About'},
-//     {id:3, link: 'services' , title: 'Services'},
-//     {id:4, link: '#portfolio' , title: 'Portfolio'}
-// ]
-
-export default allData;
-
+export default data;

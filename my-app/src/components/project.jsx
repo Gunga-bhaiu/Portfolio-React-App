@@ -14,8 +14,8 @@ function Project(props) {
                     {isToggle ? <p>{props.uniqueId}</p> : ""}
                 </a>
                 {isToggle ? cardsData.map(item => (
-                                <Card key={item.id} className='about__card'>
-                                    <span className='about__card-icon'>{item.icon}</span>
+                                <Card key={item.id} className='portfolio__card'>
+                                    <span className='portfolio__card-icon'>{item.icon}</span>
                                     <h5>{item.title}</h5>
                                     <small>{item.des}</small>
                                 </Card>
