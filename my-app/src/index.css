@@ -140,6 +140,7 @@ h6 {
     background-color: transparent;
     border-color: var(--color-light);
     transform: translateY(-0.5rem);
+    transition: var(--transition);
 }
 
 .btn.white {

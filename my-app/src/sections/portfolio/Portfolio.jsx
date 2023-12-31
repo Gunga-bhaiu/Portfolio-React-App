@@ -18,11 +18,15 @@ const Portfolio = () => {
                 </div>
                 <div className='portfolio__container'>
                     {
-                        cardData.filter(function (item){return item.projectType === isActive}).map (item => (
+                        cardData.filter(function (item) { return item.projectType === isActive }).map(item => (
                             <Card key={item.id} className='portfolio__card__items'>
                                 <span className='portfolio__card-icon'>{item.icon}</span>
                                 <h5>{item.title}</h5>
                                 <p>{item.des}</p>
+                                <div className='portfolio__card_social'>
+                                    <a className='portfolio__card__social__item btn primary'>Github</a>
+                                    <a className='portfolio__card__social__item btn primary'>Twitter</a>
+                                </div>
                             </Card>
                         ))
                     }
