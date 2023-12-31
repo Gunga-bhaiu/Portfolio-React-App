@@ -4,10 +4,10 @@ import { AiFillDatabase } from "react-icons/ai";
 
 
 const data = [
-    {id:1, icon: <TbAwardFilled/> , title: "Experience" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"},
-    {id:2, icon: <GrProjects/> , title: "Projects" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"},
-    {id:3, icon: <AiFillDatabase/> , title: "Achievements" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"},
-    {id:4, icon: <AiFillDatabase/> , title: "Achievements" , des: "This is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my descriptionThis is my description"}
+    { id: 1, icon: <TbAwardFilled />, title: "Our Backend Projects", des: "We Worked on Backend Projects", projectType: "Backend" },
+    { id: 2, icon: <GrProjects />, title: "Our Mulesoft Projects", des: "We Worked on Mulesoft Projects", projectType: "Mulesoft" },
+    { id: 3, icon: <AiFillDatabase />, title: "Our Frontend Projects", des: "We Worked on Frontend Projects", projectType: "Frontend" },
+    { id: 4, icon: <AiFillDatabase />, title: "Our Mulesoft", des: "We Worked on Mulesoft Projects", projectType: "Mulesoft" }
 ]
 
 export default data;

@@ -4,8 +4,6 @@ import cardData from './cardsData.js';
 import Card from '../../components/card.jsx'
 import { useState } from 'react';
 
-const ids = 1;
-
 const Portfolio = () => {
     let [isActive, setIsToggeled] = useState("All");
     return (
@@ -20,7 +18,7 @@ const Portfolio = () => {
                 </div>
                 <div className='portfolio__container'>
                     {
-                        cardData.map(item => (
+                        cardData.filter(function (item){return item.projectType === isActive}).map (item => (
                             <Card key={item.id} className='portfolio__card-items'>
                                 <span className='portfolio__card-icon'>{item.icon}</span>
                                 <h5>{item.title}</h5>
