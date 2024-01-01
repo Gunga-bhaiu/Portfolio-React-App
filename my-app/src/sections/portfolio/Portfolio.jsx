@@ -24,8 +24,8 @@ const Portfolio = () => {
                                 <h5>{item.title}</h5>
                                 <p>{item.des}</p>
                                 <div className='portfolio__card_social'>
-                                    <a className='portfolio__card__social__item btn primary'>Github</a>
-                                    <a className='portfolio__card__social__item btn primary'>Twitter</a>
+                                    <a href={item.github} className='portfolio__card__social__item btn primary'>Github</a>
+                                    <a href={item.twitter} className='portfolio__card__social__item btn primary'>Twitter</a>
                                 </div>
                             </Card>
                         ))
